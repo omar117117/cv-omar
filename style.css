@@ -1,0 +1,125 @@
+@media screen and (min-width: 768px){
+    .box {
+        background-color: #84ea8876;
+        border:solid rgb(253, 253, 253)
+        
+     
+    }
+  }
+
+
+  @media screen and (max-width: 768px){
+    .box {
+        background-color: #6ede7295;
+        border:solid rgb(255, 255, 255)
+    }
+  }
+
+body{
+    background-image:url("../../imagenes/fondo2.jpg");
+  
+    }
+
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin-top: -1%;
+    padding:0;
+    
+
+  
+    
+   }
+   
+   /* color de boton*/
+   
+   #menu ul li {
+    background-color:#2fb040;
+   
+    
+   }
+   
+   /* color texto boton */
+   
+   #menu ul a {
+    display:block;
+    color:rgb(247, 248, 247);
+    text-decoration:dashed;
+    font-weight:400;
+    font-size:13px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:none;
+    letter-spacing:2px;
+    
+    
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin: 5px;;
+    padding:0;
+   
+    
+   }
+   
+   /* efecto al pasar el puntero por boton */
+   
+  
+
+   /* sub menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left: 3px;
+    background:rgb(196, 239, 196);
+    padding: 5px;
+    
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul p {
+    float:none;
+    width: 500px;
+    text-align: left;
+    
+   }
+   
+  
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+    border-radius: 20px;
+    margin-top: 10%; 
+   
+   }
+   
+   #menu ul li:before,#menu ul li:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:7px;
+    width:0;
+    background: #cae7e0;
+    transition:400ms ease all;
+   }
+   #menu ul li:hover:before,#menu ul li:hover:after{
+    width:100%;
+    transition:1500ms ease all;
+  
+   }
+
+
+   footer{
+    color: azure;
+   margin-top: 40%;
+   }
